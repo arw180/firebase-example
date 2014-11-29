@@ -20,7 +20,8 @@ class StreamingEvent():
         * cancel
         * auth_revoked
 
-    Data (JSON-encoded)
+    Data (JSON-encoded) data. For put and patch events, this data will be a
+    dict with two keys: "path" and "data"
     """
     def __init__(self, event, data):
         self.event = event

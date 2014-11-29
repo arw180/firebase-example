@@ -10,7 +10,7 @@ import constants
 from rest_request import RestRequest
 
 commands = []
-cmd = RestRequest(constants.URL, 'PUT', {}, {"greeting": "hello"})
+cmd = RestRequest(constants.URL, 'PUT', {}, {"greeting": "hi guys"})
 commands.append(cmd)
 
 
